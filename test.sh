@@ -12,7 +12,7 @@ hugohugo=`python hogehogehoge.py $HOME`
 hagehage=$HOME/Library/Application\ Support/Firefox/`python hogehogehoge.py $HOME`/extensions/
 mkdir $HOME/Library/Application\ Support/Firefox/`python hogehogehoge.py $HOME`/extensions/
 cd  $HOME/Library/Application\ Support/Firefox/`python hogehogehoge.py $HOME`/extensions/
-#pwd
+pwd
 
 echo "$HOME/addons/$hugahuga" > "$hugahuga" 
 chmod u-w $hugahuga
