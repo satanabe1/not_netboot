@@ -1,6 +1,10 @@
 #!/bin/sh
-echo "INPUT XPI FILE NAME"
-read FILENAME
+if [ $# = 0 ] ; then
+    echo "INPUT XPI FILE NAME"
+    read FILENAME
+else
+    FILENAME=${1}
+fi
 #FILENAME=twilist.xpi
 test=`echo $FILENAME | sed -e "s/\.[^.]*$//g"`
 #echo $FILENAME | sed -e "s/\.[^.]*$//g"
